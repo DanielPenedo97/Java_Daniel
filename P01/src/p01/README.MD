@@ -96,7 +96,6 @@
         <hr>
         <h3>Exemplo 2 de Classe em Java</h3>
         <hr>
-        <p>
             <div class="code">
                 <pre>
                     <code>
@@ -116,7 +115,6 @@
                     </code>
                 </pre>
             </div>
-        </p>
         <hr>
         <h3>Exemplo 2 da mesma Classe em C++</h3>
         <hr>

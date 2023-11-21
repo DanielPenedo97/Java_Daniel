@@ -55,8 +55,7 @@
             <br>
             <strong>Um objeto é uma instância de uma classe.</strong> Uma classe é um modelo ou blueprint a partir do qual os objetos são criados. Portanto, um objeto é a instância (resultado) de uma classe.
         </p>
-        <hr>    
-
+        <hr>
         <h3>Exemplo 1 de Classe em Java</h3>
         <hr>
         <p>

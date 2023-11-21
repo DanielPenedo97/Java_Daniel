@@ -93,7 +93,6 @@
                 </pre>
             </div>
         </p>
-
         <hr>
         <h3>Exemplo 2 de Classe em Java</h3>
         <hr>

@@ -109,9 +109,6 @@
                                 System.out.println("A pessoa está andando");
                             }
                             
-                            void falar(String mensagem) {
-                                System.out.println("A pessoa está falando: " + mensagem);
-                            }
                         }
                     </code>
                 </pre>

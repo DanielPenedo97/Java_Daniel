@@ -200,24 +200,20 @@
         <div class="code">
             <pre>
                 <code>
-                    class Aluno {
-                        private String nome;
-                        private String matricula;
-                        private String curso;
-                        private String[] disciplinas;
-                        
-                        void estudar() {
-                            System.out.println("O aluno está estudando");
-                        }
-                        
-                        void fazerProva() {
-                            System.out.println("O aluno está fazendo prova");
-                        }
-                        
-                        void fazerTrabalho() {
-                            System.out.println("O aluno está fazendo trabalho");
-                        }
+                class Aluno {
+                    private String nome;
+                    private String matricula;
+                    private String curso;
+                    private String[] disciplinas;
+                    
+                    void estudar() {
+                        System.out.println("O aluno está estudando");
                     }
+                    
+                    void fazerProva() {
+                        System.out.println("O aluno está fazendo prova");
+                    }
+                }
                 </code>
             </pre>
         </div>
@@ -228,25 +224,21 @@
         <div class="code">
             <pre>
                 <code>
-                    class Aluno {
-                        private:
-                            String nome;
-                            String matricula;
-                            String curso;
-                            String[] disciplinas;
-                            
-                            void estudar() {
-                                cout << "O aluno está estudando" << endl;
-                            }
-                            
-                            void fazerProva() {
-                                cout << "O aluno está fazendo prova" << endl;
-                            }
-                            
-                            void fazerTrabalho() {
-                                cout << "O aluno está fazendo trabalho" << endl;
-                            }
-                    }
+                class Aluno {
+                    private:
+                        String nome;
+                        String matricula;
+                        String curso;
+                        String[] disciplinas;
+                        
+                        void estudar() {
+                            cout << "O aluno está estudando" << endl;
+                        }
+                        
+                        void fazerProva() {
+                            cout << "O aluno está fazendo prova" << endl;
+                        }
+                }
                 </code>
             </pre>
         </div>
@@ -255,30 +247,26 @@
     <h3>Exemplo 5 de Classe em Java</h3>
     <hr>
     <p>
-        <div class="code">
-            <pre>
-                <code>
-                    class Professor {
-                        private String nome;
-                        private String matricula;
-                        private String curso;
-                        private String[] disciplinas;
-                        
-                        void darAula() {
-                            System.out.println("O professor está dando aula");
-                        }
-                        
-                        void corrigirProva() {
-                            System.out.println("O professor está corrigindo prova");
-                        }
-                        
-                        void corrigirTrabalho() {
-                            System.out.println("O professor está corrigindo trabalho");
-                        }
-                    }
-                </code>
-            </pre>
-        </div>
+    <div class="code">
+        <pre>
+            <code>
+            class Professor {
+                private String nome;
+                private String matricula;
+                private String curso;
+                private String[] disciplinas;
+                
+                void darAula() {
+                    System.out.println("O professor está dando aula");
+                }
+                
+                void corrigirProva() {
+                    System.out.println("O professor está corrigindo prova");
+                }
+            }
+            </code>
+        </pre>
+    </div>
     </p><hr>
     <h3>Exemplo 5 da mesma Classe em C++</h3>
     <hr>
@@ -299,10 +287,6 @@
                     
                     void corrigirProva() {
                         cout << "O professor está corrigindo prova" << endl;
-                    }
-                    
-                    void corrigirTrabalho() {
-                        cout << "O professor está corrigindo trabalho" << endl;
                     }
             }
             </code>

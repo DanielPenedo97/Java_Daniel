@@ -97,6 +97,7 @@
         <hr>
         <h3>Exemplo 2 de Classe em Java</h3>
         <hr>
+        <p>
             <div class="code">
                 <pre>
                     <code>
@@ -104,15 +105,10 @@
                             private String nome;
                             private int idade;
                             private String endereco;
-                            
-                            void andar() {
-                                System.out.println("A pessoa está andando");
-                            }
-                            
-                        }
                     </code>
                 </pre>
             </div>
+        </p>
         <hr>
         <h3>Exemplo 2 da mesma Classe em C++</h3>
         <hr>

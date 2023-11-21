@@ -129,10 +129,6 @@
                                 void andar() {
                                     cout << "A pessoa está andando" << endl;
                                 }
-                                
-                                void falar(String mensagem) {
-                                    cout << "A pessoa está falando: " << mensagem << endl;
-                                }
                         }
                     </code>
                 </pre>

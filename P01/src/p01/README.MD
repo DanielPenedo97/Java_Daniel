@@ -58,6 +58,7 @@
     <hr>
     <h3>Exemplo 1 de Classe</h3>
     <hr>
+<<<<<<< HEAD
     <select id="example1" onchange="showCode('example1')">
         <option value="java">Java</option>
         <option value="cpp">C++</option>
@@ -131,9 +132,66 @@
             </code>
         </pre>
     </div>
+=======
+    <p>
+        <div class="code">
+            <pre>
+                <code>
+                    class Carro {
+                        private String cor;
+                        private String modelo;
+                        private int ano;
+                        void andar() {
+                            system.out.println("O carro está andando");
+                        }
+                    };
+                </code>
+            </pre>
+        </div>
+    </p>
+    <hr>
+    <h3>Exemplo 1 da mesma Classe em C++</h3>
+    <hr>
+    <p>
+        <div class="code">
+            <pre>
+                <code>
+                    class Carro {
+                        private: 
+                            String cor;
+                            String modelo;
+                            int ano;
+                            void andar() {
+                                cout << "O carro está andando" << endl;
+                            }
+                    };
+                </code>
+            </pre>
+        </div>
+    </p>
+    <hr>
+    <h3>Exemplo 2 de Classe em Java</h3>
+    <hr>
+        <div class="code">
+            <pre>
+                <code>
+        class Pessoa {
+            private String nome;
+            private int idade;
+            private String endereco;
+            
+            void andar() {
+                System.out.println("A pessoa está andando");
+            }
+        }
+                </code>
+            </pre>
+        </div>
+>>>>>>> 98df12fbb60894987c915d2998b22ee2bfcc37c6
     <hr>
     <h3>Exemplo 3 de Classe</h3>
     <hr>
+<<<<<<< HEAD
     <select id="example3" onchange="showCode('example3')">
         <option value="java">Java</option>
         <option value="cpp">C++</option>
@@ -172,6 +230,38 @@
                         String titular;
                         double saldo;
                         double limite;
+=======
+    <p>
+        <div class="code">
+            <pre>
+                <code>
+        class Pessoa {
+            private:
+                String nome;
+                int idade;
+                String endereco;
+                
+                void andar() {
+                    cout << "A pessoa está andando" << endl;
+                }
+        }
+                </code>
+            </pre>
+        </div>
+    </p>
+    <hr>
+    <h3>Exemplo 3 de Classe em Java</h3>
+    <hr>
+    <p>
+        <div class="code">
+            <pre>
+                <code>
+                    class Conta {
+                        private int numero;
+                        private String titular;
+                        private double saldo;
+                        private double limite;
+>>>>>>> 98df12fbb60894987c915d2998b22ee2bfcc37c6
                         
                         void sacar(double valor) {
                             this.saldo -= valor;

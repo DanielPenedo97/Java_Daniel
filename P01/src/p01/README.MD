@@ -73,7 +73,8 @@
                     </code>
                 </pre>
             </div>
-        </p><hr>
+        </p>
+        <hr>
         <h3>Exemplo 1 da mesma Classe em C++</h3>
         <hr>
         <p>
@@ -115,7 +116,6 @@
                     </code>
                 </pre>
             </div>
-
         <hr>
         <h3>Exemplo 2 da mesma Classe em C++</h3>
         <hr>
@@ -170,8 +170,7 @@
                     </code>
                 </pre>
             </div>
-        </p>
-        <hr>
+        </p><hr>
         <h3>Exemplo 3 da mesma Classe em C++</h3>
         <hr>
         <p>
@@ -230,8 +229,7 @@
                     </code>
                 </pre>
             </div>
-        </p>
-        <hr>
+        </p><hr>
         <h3>Exemplo 4 da mesma Classe em C++</h3>
         <hr>
         <p>
@@ -289,8 +287,7 @@
                     </code>
                 </pre>
             </div>
-        </p>
-        <hr>
+        </p><hr>
         <h3>Exemplo 5 da mesma Classe em C++</h3>
         <hr>
         <p>
@@ -320,11 +317,5 @@
                 </pre>
             </div>
         </p>
-
-
-
-
-
-
 </body>
 </html>

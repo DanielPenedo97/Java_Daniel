@@ -293,5 +293,195 @@
         </pre>
     </div>
     </p>
+
+    <h2>2. Como você declara uma variável em Java e quais são os tipos de dados primitivos mais comuns? Faça um paralelo entre isso e a mesma coisa na linguagem C++.</h2>
+    <hr>
+    <p>
+        <h3>Como você declara uma variável em Java?</h3>
+        <hr>
+        <p>
+            <strong>Exemplo de declaração de variável em Java:</strong>
+            <div class="code">
+                <pre>
+                    <code>
+                        int a = 10;
+                        float b = 10.5f;
+                        char c = 'a';
+                        String d = "Hello";
+                    </code>
+                </pre>
+            </div>
+        </p>
+        <hr>
+        <h3>Quais são os tipos de dados primitivos mais comuns?</h3>
+        <hr>
+        <p>
+            <strong>Tipos de dados primitivos em Java:</strong>
+            <ul>
+                <li>byte</li>
+                <li>short</li>
+                <li>int</li>
+                <li>long</li>
+                <li>float</li>
+                <li>double</li>
+                <li>boolean</li>
+                <li>char</li>
+            </ul>
+        </p>
+        <hr>
+        <h3>Exemplo de declaração de variável em C++:</h3>
+        <hr>
+        <p>
+            <strong>Exemplo de declaração de variável em C++:</strong>
+            <div class="code">
+                <pre>
+                    <code>
+                        int a = 10;
+                        float b = 10.5f;
+                        char c = 'a';
+                        String d = "Hello";
+                    </code>
+                </pre>
+            </div>
+        </p>
+        <hr>
+        <h3>Tipos de dados primitivos em C++:</h3>
+        <hr>
+        <p>
+            <strong>Tipos de dados primitivos em C++:</strong>
+            <ul>
+                <li>char</li>
+                <li>int</li>
+                <li>float</li>
+                <li>double</li>
+                <li>void</li>
+                <li>wchar_t</li>
+                <li>bool</li>
+                <li>short</li>
+                <li>long</li>
+                <li>long double</li>
+            </ul>
+        </p>
+
+        <h2>3. Explique o conceito de herança em Java e como você pode criar uma subclasse a partir de uma classe existente. Faça um paralelo com C++, apresentando 5 exemplos.</h2>
+        <hr>
+        <p>
+            <h3>Explique o conceito de herança em Java</h3>
+            <hr>
+            <p>
+                <strong>Herança em Java:</strong>
+                <ul>
+                    <li>Herança é um mecanismo no qual uma classe adquire as propriedades (métodos e campos) de outra.</li>
+                    <li>Com a ajuda da herança, podemos reutilizar os campos e métodos da classe existente.</li>
+                    <li>Portanto, a herança facilita a reutilização do código.</li>
+                    <li>A classe que herda as propriedades de outra classe é chamada de subclasse (herdeira, filha) e a classe de onde a subclasse herda as propriedades é chamada de superclasse (herdada, pai).</li>
+                    <li>Herança é também conhecida como relação IS-A.</li>
+                </ul>
+            </p>
+            <hr>
+            <h3>Como você pode criar uma subclasse a partir de uma classe existente?</h3>
+            <hr>
+            <p>
+                <strong>Exemplo de herança em Java:</strong>
+                <div class="code">
+                    <pre>
+                        <code>
+                            class Animal {
+                                void comer() {
+                                    System.out.println("comendo...");
+                                }
+                            }
+                            
+                            class Cachorro extends Animal {
+                                void latir() {
+                                    System.out.println("latindo...");
+                                }
+                            }
+                            
+                            class Gato extends Animal {
+                                void miar() {
+                                    System.out.println("miando...");
+                                }
+                            }
+                            
+                            class Main {
+                                public static void main(String[] args) {
+                                    Cachorro c = new Cachorro();
+                                    c.comer();
+                                    c.latir();
+                                    
+                                    Gato g = new Gato();
+                                    g.comer();
+                                    g.miar();
+                                }
+                            }
+                        </code>
+                    </pre>
+                </div>
+            </p>
+            <hr>
+            <h3>Exemplo de herança em C++:</h3>
+            <hr>
+            <p>
+                <strong>Exemplo de herança em C++:</strong>
+                <div class="code">
+                    <pre>
+                        <code>
+                            class Animal {
+                                void comer() {
+                                    cout << "comendo..." << endl;
+                                }
+                                
+                                void latir() {
+                                    cout << "latindo..." << endl;
+                                }
+                                
+                                void miar() {
+                                    cout << "miando..." << endl;
+                                }
+                            }
+                            
+                            class Cachorro : public Animal {
+                            }
+                            
+                            class Gato : public Animal {
+                            }
+                            
+                            class Main {
+                                public static void main(String[] args) {
+                                    Cachorro c = new Cachorro();
+                                    c.comer();
+                                    c.latir();
+                                    
+                                    Gato g = new Gato();
+                                    g.comer();
+                                    g.miar();
+                                }
+                            }
+                            
+                        </code>
+                    </pre>
+                </div>
+            </p>
+        <h2>
+            4. Quando declaramos uma variável em Java, temos, na verdade, um ponteiro. Em C++ é diferente. Discorra sobre esse aspecto.
+        </h2>
+        <hr>
+        <p>
+            <h3>Quando declaramos uma variável em Java, temos, na verdade, um ponteiro. Em C++ é diferente. Discorra sobre esse aspecto.</h3>
+            <hr>
+            <p>
+                Em Java, todas as variáveis de objetos são tratadas como referências,comportando-se como ponteiros para objetos, e nunca o próprio objeto, enquanto em C++ as variáveis podem conter diretamente o objeto.
+                <br><br>
+                Por exemplo, ao declarar uma variável em Java, como MinhaClasse obj;, estamos criando um ponteiro para um objeto da classe MinhaClasse. Esse ponteiro é inicializado com o valor null, e somente após a criação do objeto podemos atribuir a referência desse objeto à variável.
+                <br><br>
+                Em C++, ao declarar uma variável, como MinhaClasse obj;, estamos criando uma instância direta do objeto, no entanto também é possível usar ponteiros com o operador *, declarando MinhaClasse* ptr; que cria um ponteiro para um objeto da classe MinhaClasse.
+                <br><br>
+                As diferenças fundamentais incluem o fato de que Java não suporta explicitamente ponteiros, mas os utiliza implicitamente para manipulações de referências, uma abordagem que equilibra eficiência com segurança. Ponteiros em C++, por sua vez, são mais flexíveis, mas podem ser perigosos, tornando uma grande fonte de problemas caso usados incorretamente.
+                <br><br>
+                Essa diferença tem implicações na implementação de gerenciamento de memória; em Java, o gerenciamento de memória é feito automaticamente pelo coletor de lixo (garbage collector), enquanto em C++ é necessário gerenciar manualmente alocação e desalocação de memória ao usar ponteiros.
+            </p>
+        </p>
+
 </body>
 </html>

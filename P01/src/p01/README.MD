@@ -100,15 +100,15 @@
         <div class="code">
             <pre>
                 <code>
-                    class Pessoa {
-                        private String nome;
-                        private int idade;
-                        private String endereco;
-                        
-                        void andar() {
-                            System.out.println("A pessoa está andando");
-                        }
-                    }
+        class Pessoa {
+            private String nome;
+            private int idade;
+            private String endereco;
+            
+            void andar() {
+                System.out.println("A pessoa está andando");
+            }
+        }
                 </code>
             </pre>
         </div>
@@ -119,16 +119,16 @@
         <div class="code">
             <pre>
                 <code>
-                    class Pessoa {
-                        private:
-                            String nome;
-                            int idade;
-                            String endereco;
-                            
-                            void andar() {
-                                cout << "A pessoa está andando" << endl;
-                            }
-                    }
+        class Pessoa {
+            private:
+                String nome;
+                int idade;
+                String endereco;
+                
+                void andar() {
+                    cout << "A pessoa está andando" << endl;
+                }
+        }
                 </code>
             </pre>
         </div>

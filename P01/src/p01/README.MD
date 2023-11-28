@@ -148,7 +148,7 @@
                         }
                         void depositar(double valor) {
                             this.saldo += valor;
-                        }
+                        }                        
                         void transferir(double valor, Conta destino) {
                             this.saldo -= valor;
                             destino.saldo += valor;
@@ -169,13 +169,13 @@
                             int numero;
                             String titular;
                             double saldo;
-                            double limite;
+                            double limite;                            
                             void sacar(double valor) {
                                 this.saldo -= valor;
-                            }
+                            }                            
                             void depositar(double valor) {
                                 this.saldo += valor;
-                            }
+                            }                            
                             void transferir(double valor, Conta destino) {
                                 this.saldo -= valor;
                                 destino.saldo += valor;
@@ -196,10 +196,10 @@
                     private String nome;
                     private String matricula;
                     private String curso;
-                    private String[] disciplinas;
+                    private String[] disciplinas;                    
                     void estudar() {
                         System.out.println("O aluno está estudando");
-                    }
+                    }                    
                     void fazerProva() {
                         System.out.println("O aluno está fazendo prova");
                     }
@@ -219,10 +219,10 @@
                         String nome;
                         String matricula;
                         String curso;
-                        String[] disciplinas;
+                        String[] disciplinas;                        
                         void estudar() {
                             cout << "O aluno está estudando" << endl;
-                        }
+                        }                        
                         void fazerProva() {
                             cout << "O aluno está fazendo prova" << endl;
                         }
@@ -242,10 +242,10 @@
                 private String nome;
                 private String matricula;
                 private String curso;
-                private String[] disciplinas;
+                private String[] disciplinas;                
                 void darAula() {
                     System.out.println("O professor está dando aula");
-                }
+                }                
                 void corrigirProva() {
                     System.out.println("O professor está corrigindo prova");
                 }
@@ -265,10 +265,10 @@
                     String nome;
                     String matricula;
                     String curso;
-                    String[] disciplinas;
+                    String[] disciplinas;                    
                     void darAula() {
                         cout << "O professor está dando aula" << endl;
-                    }
+                    }                    
                     void corrigirProva() {
                         cout << "O professor está corrigindo prova" << endl;
                     }
@@ -374,22 +374,22 @@
                                 void comer() {
                                     System.out.println("comendo...");
                                 }
-                            }
+                            }                            
                             class Cachorro extends Animal {
                                 void latir() {
                                     System.out.println("latindo...");
                                 }
-                            }
+                            }                            
                             class Gato extends Animal {
                                 void miar() {
                                     System.out.println("miando...");
                                 }
-                            }
+                            }                            
                             class Main {
                                 public static void main(String[] args) {
                                     Cachorro c = new Cachorro();
                                     c.comer();
-                                    c.latir();
+                                    c.latir();                                    
                                     Gato g = new Gato();
                                     g.comer();
                                     g.miar();
@@ -410,23 +410,23 @@
                             class Animal {
                                 void comer() {
                                     cout << "comendo..." << endl;
-                                }
+                                }                                
                                 void latir() {
                                     cout << "latindo..." << endl;
-                                }
+                                }                                
                                 void miar() {
                                     cout << "miando..." << endl;
                                 }
-                            }
+                            }                            
                             class Cachorro : public Animal {
-                            }
+                            }                            
                             class Gato : public Animal {
-                            }
+                            }                            
                             class Main {
                                 public static void main(String[] args) {
                                     Cachorro c = new Cachorro();
                                     c.comer();
-                                    c.latir();
+                                    c.latir();                                    
                                     Gato g = new Gato();
                                     g.comer();
                                     g.miar();

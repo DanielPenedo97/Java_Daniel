@@ -277,7 +277,6 @@
         </pre>
     </div>
     </p>
-
     <h2>2. Como você declara uma variável em Java e quais são os tipos de dados primitivos mais comuns? Faça um paralelo entre isso e a mesma coisa na linguagem C++.</h2>
     <hr>
     <p>
@@ -346,7 +345,6 @@
                 <li>long double</li>
             </ul>
         </p>
-
         <h2>3. Explique o conceito de herança em Java e como você pode criar uma subclasse a partir de uma classe existente. Faça um paralelo com C++, apresentando 5 exemplos.</h2>
         <hr>
         <p>
@@ -432,7 +430,6 @@
                                     g.miar();
                                 }
                             }
-                            
                         </code>
                     </pre>
                 </div>
@@ -456,6 +453,5 @@
                 Essa diferença tem implicações na implementação de gerenciamento de memória; em Java, o gerenciamento de memória é feito automaticamente pelo coletor de lixo (garbage collector), enquanto em C++ é necessário gerenciar manualmente alocação e desalocação de memória ao usar ponteiros.
             </p>
         </p>
-
 </body>
 </html>

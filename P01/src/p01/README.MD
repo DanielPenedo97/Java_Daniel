@@ -424,7 +424,11 @@
                                 public static void main(String[] args) {
                                     Cachorro c = new Cachorro();
                                     c.comer();
+<<<<<<< HEAD
                                     c.latir();
+=======
+                                    c.latir();                                    
+>>>>>>> 57a7e857a6b94542f45f0d4a5dfa400e6772b6db
                                     Gato g = new Gato();
                                     g.comer();
                                     g.miar();

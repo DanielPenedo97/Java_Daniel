@@ -104,7 +104,6 @@
                         private String nome;
                         private int idade;
                         private String endereco;
-                        
                         void andar() {
                             System.out.println("A pessoa está andando");
                         }
@@ -124,7 +123,6 @@
                             String nome;
                             int idade;
                             String endereco;
-                            
                             void andar() {
                                 cout << "A pessoa está andando" << endl;
                             }
@@ -145,15 +143,12 @@
                         private String titular;
                         private double saldo;
                         private double limite;
-                        
                         void sacar(double valor) {
                             this.saldo -= valor;
                         }
-                        
                         void depositar(double valor) {
                             this.saldo += valor;
-                        }
-                        
+                        }                        
                         void transferir(double valor, Conta destino) {
                             this.saldo -= valor;
                             destino.saldo += valor;
@@ -174,16 +169,13 @@
                             int numero;
                             String titular;
                             double saldo;
-                            double limite;
-                            
+                            double limite;                            
                             void sacar(double valor) {
                                 this.saldo -= valor;
-                            }
-                            
+                            }                            
                             void depositar(double valor) {
                                 this.saldo += valor;
-                            }
-                            
+                            }                            
                             void transferir(double valor, Conta destino) {
                                 this.saldo -= valor;
                                 destino.saldo += valor;
@@ -204,12 +196,10 @@
                     private String nome;
                     private String matricula;
                     private String curso;
-                    private String[] disciplinas;
-                    
+                    private String[] disciplinas;                    
                     void estudar() {
                         System.out.println("O aluno está estudando");
-                    }
-                    
+                    }                    
                     void fazerProva() {
                         System.out.println("O aluno está fazendo prova");
                     }
@@ -229,12 +219,10 @@
                         String nome;
                         String matricula;
                         String curso;
-                        String[] disciplinas;
-                        
+                        String[] disciplinas;                        
                         void estudar() {
                             cout << "O aluno está estudando" << endl;
-                        }
-                        
+                        }                        
                         void fazerProva() {
                             cout << "O aluno está fazendo prova" << endl;
                         }
@@ -254,12 +242,10 @@
                 private String nome;
                 private String matricula;
                 private String curso;
-                private String[] disciplinas;
-                
+                private String[] disciplinas;                
                 void darAula() {
                     System.out.println("O professor está dando aula");
-                }
-                
+                }                
                 void corrigirProva() {
                     System.out.println("O professor está corrigindo prova");
                 }
@@ -279,12 +265,10 @@
                     String nome;
                     String matricula;
                     String curso;
-                    String[] disciplinas;
-                    
+                    String[] disciplinas;                    
                     void darAula() {
                         cout << "O professor está dando aula" << endl;
-                    }
-                    
+                    }                    
                     void corrigirProva() {
                         cout << "O professor está corrigindo prova" << endl;
                     }
@@ -293,7 +277,6 @@
         </pre>
     </div>
     </p>
-
     <h2>2. Como você declara uma variável em Java e quais são os tipos de dados primitivos mais comuns? Faça um paralelo entre isso e a mesma coisa na linguagem C++.</h2>
     <hr>
     <p>
@@ -362,7 +345,6 @@
                 <li>long double</li>
             </ul>
         </p>
-
         <h2>3. Explique o conceito de herança em Java e como você pode criar uma subclasse a partir de uma classe existente. Faça um paralelo com C++, apresentando 5 exemplos.</h2>
         <hr>
         <p>
@@ -390,26 +372,22 @@
                                 void comer() {
                                     System.out.println("comendo...");
                                 }
-                            }
-                            
+                            }                            
                             class Cachorro extends Animal {
                                 void latir() {
                                     System.out.println("latindo...");
                                 }
-                            }
-                            
+                            }                            
                             class Gato extends Animal {
                                 void miar() {
                                     System.out.println("miando...");
                                 }
-                            }
-                            
+                            }                            
                             class Main {
                                 public static void main(String[] args) {
                                     Cachorro c = new Cachorro();
                                     c.comer();
-                                    c.latir();
-                                    
+                                    c.latir();                                    
                                     Gato g = new Gato();
                                     g.comer();
                                     g.miar();
@@ -430,35 +408,28 @@
                             class Animal {
                                 void comer() {
                                     cout << "comendo..." << endl;
-                                }
-                                
+                                }                                
                                 void latir() {
                                     cout << "latindo..." << endl;
-                                }
-                                
+                                }                                
                                 void miar() {
                                     cout << "miando..." << endl;
                                 }
-                            }
-                            
+                            }                            
                             class Cachorro : public Animal {
-                            }
-                            
+                            }                            
                             class Gato : public Animal {
-                            }
-                            
+                            }                            
                             class Main {
                                 public static void main(String[] args) {
                                     Cachorro c = new Cachorro();
                                     c.comer();
                                     c.latir();
-                                    
                                     Gato g = new Gato();
                                     g.comer();
                                     g.miar();
                                 }
                             }
-                            
                         </code>
                     </pre>
                 </div>
@@ -482,6 +453,5 @@
                 Essa diferença tem implicações na implementação de gerenciamento de memória; em Java, o gerenciamento de memória é feito automaticamente pelo coletor de lixo (garbage collector), enquanto em C++ é necessário gerenciar manualmente alocação e desalocação de memória ao usar ponteiros.
             </p>
         </p>
-
 </body>
 </html>
